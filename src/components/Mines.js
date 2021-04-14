@@ -71,7 +71,7 @@ class Mines extends React.Component {
    be a mine sweeper type game however I got the idea to change it into a pokemon game*/
   render() {
     return (
-      <header className="">
+      <div className="mainClass">
         <div id="userInterface">
           <h2 id="title">Find The Pokemon</h2>
           <h2>Level 1</h2>
@@ -183,7 +183,8 @@ class Mines extends React.Component {
 
           <button onClick={this.restart}>restart</button>
         </div>
-      </header>
+
+    </div>
     );
   }
 }

@@ -15,6 +15,9 @@ h2{
 p{
     font-size: 1.25rem;
 }
+.mainClass{
+  height: 40rem;
+}
 #navDiv{
 
   width: 100%;
@@ -75,7 +78,7 @@ font-size: 1.25rem;
 a{
 
       text-decoration: none;
-      color: black;
+      color: white;
 }
 
 a:visited{
